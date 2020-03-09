@@ -22,3 +22,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.wrapper {
+  display: inline-block;
+  justify-content: center;
+  height: 450px;
+  width: 475px;
+  padding-top: 10px;
+  background-color: rgb(67, 67, 67);
+  font-size: 20px;
+}
+p {
+  color: white;
+  font-size: 30px;
+}
+input {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 600px;
+  height: 30px;
+  margin: 5px 0px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+button {
+  color: white;
+  background-color: rgb(67, 67, 67);
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+div {
+  height: 450px;
+  width: 550px;
+  margin: auto;
+  padding-top: 10px;
+  background-color: rgb(67, 67, 67);
+  font-size: 30px;
+  text-align: center;
+}
+
+label {
+  color: white;
+}
